@@ -39,8 +39,8 @@ def start_message(message):
    )
 	nam=message.chat.first_name
 	bot.send_message(message.chat.id,f'''<strong>
-	- Selam {nam} 🐦‍\n💸 CC bot .\n
-	- Tüm komutları görmek için \help yazabilirsin.\n
+	- Selam {nam} 🐦‍\n💸 Credit Card Generator bot .\n
+	- Tüm komutları görmek için /help yazabilirsin.\n
  </strong>''',reply_markup=keyboard,parse_mode='html', disable_web_page_preview=True
  )
 	
