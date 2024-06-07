@@ -1,8 +1,31 @@
-# LUNE - APİ 
+# LUNE - APİ FREE ∆
 
-## OPEN FREE [APİ] DATA
-```
-Php , Python , Node JS ✓
+## OPEN SOURCE DATA ;
 
-Extraxt Free Client Data ✓
+NOT : 
+
+`Açık Kaynak Scripitler` Mevcutttur, Burası Tamda Geliştiricilerin Burası Cennettidir ⭐
+
+
+# Kullanılan Programlama Diller,
 ```
+Php [✓]
+Python [✓]
+Node JS [✓]
+```
+# TELEGRAM 💙
+
+***Telegramda Bot Geliştiriyorsanız Sizin İçin Extradan Fırsatlar Sunulmuştur, Bu Araçlardan Sizde Faydalanabilirsiniz***
+
+## APİ ÖRNEĞİ [BOT FATHER](t.me/BotFather)
+```
+import telebot
+import requests
+
+TOKEN = "BOT_TOKEN"
+bot = telebot.TeleBot(TOKEN)
+```
+## CONFİG [⚙️]
+***Bir Belirteci Düğümlemesine İhtiyac Mevcuttur Peki Ya Nasıl ?***
+
+TOKEN = `"BOT FATHER TOKENİNİZ"`
