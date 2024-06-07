@@ -33,7 +33,7 @@ Node JS [✓]
 
 ***Eğer [Termux 📥](https://f-droid.org/tr/packages/com.termux) İle Depoyu Klonladıktan Sonra `cd Telegram` Komut Verin,***
 
-***Arayüz İle Betiği Editlemek***
+## Arayüz İle Betiği Editlemek
 ```
 vi Bot_Altyapi.py
 ```
