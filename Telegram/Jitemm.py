@@ -249,8 +249,8 @@ def handle_start(message):
             greeting = "İyi Geceler"
 
     
-    channel_username1 = '@JitemSorgu'
-    channel_username2 = '@JitemChats'
+    channel_username1 = '@CerenyTeam'
+    channel_username2 = '@Bot4Chan'
     
     if not is_user_in_channel(user_id, channel_username1) or not is_user_in_channel(user_id, channel_username2):
             bot.send_chat_action(message.chat.id, 'typing')
@@ -296,8 +296,8 @@ def handle_callbacks(call):
         return
 
     user_id = call.from_user.id
-    channel_username1 = '@JitemSorgu'
-    channel_username2 = '@JitemChats'
+    channel_username1 = '@CerenyTeam'
+    channel_username2 = '@Bot4Chan'
 
     if not is_user_in_channel(user_id, channel_username1) or not is_user_in_channel(user_id, channel_username2):
         send_group_join_prompt(user_id)
@@ -356,8 +356,8 @@ def process_username_step(message):
         return
     user_id = message.from_user.id
     username = message.text
-    channel_username1 = '@JitemSorgu'
-    channel_username2 = '@JitemChats'
+    channel_username1 = '@CerenyTeam'
+    channel_username2 = '@Bot4Chan'
     
     if not is_user_in_channel(user_id, channel_username1) or not is_user_in_channel(user_id, channel_username2):
             	bot.send_chat_action(message.chat.id, 'typing')
@@ -392,8 +392,8 @@ def process_username_step(message):
 def process_password_step(message, username):
     user_id = message.from_user.id
     password = message.text
-    channel_username1 = '@JitemSorgu'
-    channel_username2 = '@JitemChats'
+    channel_username1 = '@CerenyTeam'
+    channel_username2 = '@Bot4Chan'
     
     if not is_user_in_channel(user_id, channel_username1) or not is_user_in_channel(user_id, channel_username2):
         bot.send_chat_action(message.chat.id, 'typing')
@@ -417,8 +417,8 @@ def process_password_step(message, username):
 def process_login_username_step(message):
     user_id = message.from_user.id
     username = message.text
-    channel_username1 = '@JitemSorgu'
-    channel_username2 = '@JitemChats'
+    channel_username1 = '@CerenyTeam'
+    channel_username2 = '@Bot4Chan'
     
     if not is_user_in_channel(user_id, channel_username1) or not is_user_in_channel(user_id, channel_username2):
             	bot.send_chat_action(message.chat.id, 'typing')
@@ -469,8 +469,8 @@ def process_login_password_step(message, username):
         else:
             greeting = "İyi Geceler"
 
-        channel_username1 = '@JitemSorgu'
-        channel_username2 = '@JitemChats'
+        channel_username1 = '@CerenyTeam'
+        channel_username2 = '@Bot4Chan'
 
         if not is_user_in_channel(user_id, channel_username1) or not is_user_in_channel(user_id, channel_username2):
             bot.send_chat_action(message.chat.id, 'typing')
@@ -524,8 +524,8 @@ def send_welcome(message):
         else:
             greeting = "İyi Geceler"
 
-        channel_username1 = '@JitemSorgu'
-        channel_username2 = '@JitemChats'
+        channel_username1 = '@CerenyTeam'
+        channel_username2 = '@Bot4Chan'
 
         if not is_user_in_channel(user_id, channel_username1) or not is_user_in_channel(user_id, channel_username2):
             bot.send_chat_action(message.chat.id, 'typing')
@@ -562,8 +562,8 @@ def send_message(message):
         return
     user_id = message.from_user.id
     global message_permission_count
-    channel_username1 = '@JitemSorgu'
-    channel_username2 = '@JitemChats'
+    channel_username1 = '@CerenyTeam'
+    channel_username2 = '@Bot4Chan'
     
     if not is_user_in_channel(user_id, channel_username1) or not is_user_in_channel(user_id, channel_username2):
             	bot.send_chat_action(message.chat.id, 'typing')
@@ -617,8 +617,8 @@ def handle_logout(message):
         return
 
     user_id = message.from_user.id
-    channel_username1 = '@JitemSorgu'
-    channel_username2 = '@JitemChats'
+    channel_username1 = '@CerenyTeam'
+    channel_username2 = '@Bot4Chan'
     
     if not is_user_in_channel(user_id, channel_username1) or not is_user_in_channel(user_id, channel_username2):
             	bot.send_chat_action(message.chat.id, 'typing')
@@ -706,8 +706,8 @@ def tckn(message):
         return
 
     user_id = message.from_user.id
-    channel_username1 = '@JitemSorgu'
-    channel_username2 = '@JitemChats'
+    channel_username1 = '@CerenyTeam'
+    channel_username2 = '@Bot4Chan'
     
     if not is_user_in_channel(user_id, channel_username1) or not is_user_in_channel(user_id, channel_username2):
         bot.send_chat_action(message.chat.id, 'typing')
@@ -792,8 +792,8 @@ def tckn(message):
         return
 
     user_id = message.from_user.id
-    channel_username1 = '@JitemSorgu'
-    channel_username2 = '@JitemChats'
+    channel_username1 = '@CerenyTeam'
+    channel_username2 = '@Bot4Chan'
     
     if not is_user_in_channel(user_id, channel_username1) or not is_user_in_channel(user_id, channel_username2):
             	bot.send_chat_action(message.chat.id, 'typing')
@@ -879,8 +879,8 @@ def vesika(message):
         return
 
     user_id = message.from_user.id
-    channel_username1 = '@JitemSorgu'
-    channel_username2 = '@JitemChats'
+    channel_username1 = '@CerenyTeam'
+    channel_username2 = '@Bot4Chan'
     
     if not is_user_in_channel(user_id, channel_username1) or not is_user_in_channel(user_id, channel_username2):
         bot.send_chat_action(message.chat.id, 'typing')
@@ -966,8 +966,8 @@ def kizlik(message):
         return
 
     user_id = message.from_user.id
-    channel_username1 = '@JitemSorgu'
-    channel_username2 = '@JitemChats'
+    channel_username1 = '@CerenyTeam'
+    channel_username2 = '@Bot4Chan'
     
     if not is_user_in_channel(user_id, channel_username1) or not is_user_in_channel(user_id, channel_username2):
         bot.send_message(user_id, text="*Üzgünüm, @JitemSorgu ve @JitemChats gruplarına katılmak zorunludur!*", parse_mode="Markdown")
@@ -1044,8 +1044,8 @@ def send_random_photo_with_caption(message):
         return
 
     user_id = message.from_user.id
-    channel_username1 = '@JitemSorgu'
-    channel_username2 = '@JitemChats'
+    channel_username1 = '@CerenyTeam'
+    channel_username2 = '@Bot4Chan'
     
     if not is_user_in_channel(user_id, channel_username1) or not is_user_in_channel(user_id, channel_username2):
         bot.send_message(user_id, text="*Üzgünüm, @JitemSorgu ve @JitemChats gruplarına katılmak zorunludur!*", parse_mode="Markdown")
@@ -1101,8 +1101,8 @@ def index(message):
         return
 
     user_id = message.from_user.id
-    channel_username1 = '@JitemSorgu'
-    channel_username2 = '@JitemChats'
+    channel_username1 = '@CerenyTeam'
+    channel_username2 = '@Bot4Chan'
     
     if not is_user_in_channel(user_id, channel_username1) or not is_user_in_channel(user_id, channel_username2):
         bot.send_message(user_id, text="*Üzgünüm, @JitemSorgu ve @JitemChats gruplarına katılmak zorunludur!*", parse_mode="Markdown")
@@ -1163,8 +1163,8 @@ def handle_destek(message):
     if message.chat.type != "private":
         return
     user_id = message.from_user.id
-    channel_username1 = '@JitemSorgu'
-    channel_username2 = '@JitemChats'
+    channel_username1 = '@CerenyTeam'
+    channel_username2 = '@Bot4Chan'
     
     if not is_user_in_channel(user_id, channel_username1) or not is_user_in_channel(user_id, channel_username2):
                 bot.send_message(user_id, text="*Üzgünüm, @JitemSorgu ve @JitemChats gruplarına katılmak zorunludur!*", parse_mode="Markdown")
@@ -1206,8 +1206,8 @@ def penis_size(message):
     if message.chat.type != "private":
         return
     user_id = message.from_user.id
-    channel_username1 = '@JitemSorgu'
-    channel_username2 = '@JitemChats'
+    channel_username1 = '@CerenyTeam'
+    channel_username2 = '@Bot4Chan'
     
     if not is_user_in_channel(user_id, channel_username1) or not is_user_in_channel(user_id, channel_username2):
                 bot.send_message(user_id, text="*Üzgünüm, @JitemSorgu ve @JitemChats gruplarına katılmak zorunludur!*", parse_mode="Markdown")
@@ -1257,8 +1257,8 @@ def burc(message):
         return
 
     user_id = message.from_user.id
-    channel_username1 = '@JitemSorgu'
-    channel_username2 = '@JitemChats'
+    channel_username1 = '@CerenyTeam'
+    channel_username2 = '@Bot4Chan'
     
     if not is_user_in_channel(user_id, channel_username1) or not is_user_in_channel(user_id, channel_username2):
         bot.send_message(user_id, text="*Üzgünüm, @JitemSorgu ve @JitemChats gruplarına katılmak zorunludur!*", parse_mode="Markdown")
@@ -1334,8 +1334,8 @@ def medeni(message):
         return
 
     user_id = message.from_user.id
-    channel_username1 = '@JitemSorgu'
-    channel_username2 = '@JitemChats'
+    channel_username1 = '@CerenyTeam'
+    channel_username2 = '@Bot4Chan'
     
     if not is_user_in_channel(user_id, channel_username1) or not is_user_in_channel(user_id, channel_username2):
         bot.send_message(user_id, text="*Üzgünüm, @JitemSorgu ve @JitemChats gruplarına katılmak zorunludur!*", parse_mode="Markdown")
@@ -1417,8 +1417,8 @@ def ihbar(message):
         return
 
     user_id = message.from_user.id
-    channel_username1 = '@JitemSorgu'
-    channel_username2 = '@JitemChats'
+    channel_username1 = '@CerenyTeam'
+    channel_username2 = '@Bot4Chan'
     
     if not is_user_in_channel(user_id, channel_username1) or not is_user_in_channel(user_id, channel_username2):
         bot.send_message(user_id, text="*Üzgünüm, @JitemSorgu ve @JitemChats gruplarına katılmak zorunludur!*", parse_mode="Markdown")
@@ -1490,8 +1490,8 @@ def iban(message):
         return
 
     user_id = message.from_user.id
-    channel_username1 = '@JitemSorgu'
-    channel_username2 = '@JitemChats'
+    channel_username1 = '@CerenyTeam'
+    channel_username2 = '@Bot4Chan'
     
     if not is_user_in_channel(user_id, channel_username1) or not is_user_in_channel(user_id, channel_username2):
         bot.send_message(user_id, text="*Üzgünüm, @JitemSorgu ve @JitemChats gruplarına katılmak zorunludur!*", parse_mode="Markdown")
@@ -1583,8 +1583,8 @@ def operator(message):
         return
 
     user_id = message.from_user.id
-    channel_username1 = '@JitemSorgu'
-    channel_username2 = '@JitemChats'
+    channel_username1 = '@CerenyTeam'
+    channel_username2 = '@Bot4Chan'
     
     if not is_user_in_channel(user_id, channel_username1) or not is_user_in_channel(user_id, channel_username2):
         bot.send_message(user_id, text="*Üzgünüm, @JitemSorgu ve @JitemChats gruplarına katılmak zorunludur!*", parse_mode="Markdown")
@@ -1659,8 +1659,8 @@ def gsmtc(message):
         return
 
     user_id = message.from_user.id
-    channel_username1 = '@JitemSorgu'
-    channel_username2 = '@JitemChats'
+    channel_username1 = '@CerenyTeam'
+    channel_username2 = '@Bot4Chan'
     
     if not is_user_in_channel(user_id, channel_username1) or not is_user_in_channel(user_id, channel_username2):
         bot.send_message(user_id, text="*Üzgünüm, @JitemSorgu ve @JitemChats gruplarına katılmak zorunludur!*", parse_mode="Markdown")
@@ -1734,8 +1734,8 @@ def tcgsm(message):
         return
 
     user_id = message.from_user.id
-    channel_username1 = '@JitemSorgu'
-    channel_username2 = '@JitemChats'
+    channel_username1 = '@CerenyTeam'
+    channel_username2 = '@Bot4Chan'
     
     if not is_user_in_channel(user_id, channel_username1) or not is_user_in_channel(user_id, channel_username2):
         bot.send_message(user_id, text="*Üzgünüm, @JitemSorgu ve @JitemChats gruplarına katılmak zorunludur!*", parse_mode="Markdown")
@@ -1810,8 +1810,8 @@ def plaka(message):
         return
 
     user_id = message.from_user.id
-    channel_username1 = '@JitemSorgu'
-    channel_username2 = '@JitemChats'
+    channel_username1 = '@CerenyTeam'
+    channel_username2 = '@Bot4Chan'
     
     if not is_user_in_channel(user_id, channel_username1) or not is_user_in_channel(user_id, channel_username2):
                 bot.send_message(user_id, text="*Üzgünüm, @JitemSorgu ve @JitemChats gruplarına katılmak zorunludur!*", parse_mode="Markdown")
@@ -1882,8 +1882,8 @@ def plaka(message):
         return
 
     user_id = message.from_user.id
-    channel_username1 = '@JitemSorgu'
-    channel_username2 = '@JitemChats'
+    channel_username1 = '@CerenyTeam'
+    channel_username2 = '@Bot4Chan'
     
     if not is_user_in_channel(user_id, channel_username1) or not is_user_in_channel(user_id, channel_username2):
                 bot.send_message(user_id, text="*Üzgünüm, @JitemSorgu ve @JitemChats gruplarına katılmak zorunludur!*", parse_mode="Markdown")
@@ -1956,8 +1956,8 @@ def handle_sorgu(message):
         return
 
     user_id = message.from_user.id
-    channel_username1 = '@JitemSorgu'
-    channel_username2 = '@JitemChats'
+    channel_username1 = '@CerenyTeam'
+    channel_username2 = '@Bot4Chan'
     
     if not is_user_in_channel(user_id, channel_username1) or not is_user_in_channel(user_id, channel_username2):
         bot.send_message(user_id, text="*Üzgünüm, @JitemSorgu ve @JitemChats gruplarına katılmak zorunludur!*", parse_mode="Markdown")
@@ -2033,8 +2033,8 @@ def handle_sorgu(message):
         return
 
     user_id = message.from_user.id
-    channel_username1 = '@JitemSorgu'
-    channel_username2 = '@JitemChats'
+    channel_username1 = '@CerenyTeam'
+    channel_username2 = '@Bot4Chan'
     
     if not is_user_in_channel(user_id, channel_username1) or not is_user_in_channel(user_id, channel_username2):
                 bot.send_message(user_id, text="*Üzgünüm, @JitemSorgu ve @JitemChats gruplarına katılmak zorunludur!*", parse_mode="Markdown")
@@ -2215,8 +2215,8 @@ def sulale(message):
         return
 
     user_id = message.from_user.id
-    channel_username1 = '@JitemSorgu'
-    channel_username2 = '@JitemChats'
+    channel_username1 = '@CerenyTeam'
+    channel_username2 = '@Bot4Chan'
     
     if not is_user_in_channel(user_id, channel_username1) or not is_user_in_channel(user_id, channel_username2):
         bot.send_message(user_id, text="*Üzgünüm, @JitemSorgu ve @JitemChats gruplarına katılmak zorunludur!*", parse_mode="Markdown")
@@ -2339,8 +2339,8 @@ def sorgu(message):
     chat_id = message.chat.id
     user_first_name = message.from_user.first_name
     user_id = message.from_user.id
-    channel_username1 = '@JitemSorgu'
-    channel_username2 = '@JitemChats'
+    channel_username1 = '@CerenyTeam'
+    channel_username2 = '@Bot4Chan'
     
     if not is_user_in_channel(user_id, channel_username1) or not is_user_in_channel(user_id, channel_username2):
                 bot.send_message(user_id, text="*Üzgünüm, @JitemSorgu ve @JitemChats gruplarına katılmak zorunludur!*", parse_mode="Markdown")
@@ -2420,8 +2420,8 @@ def handle_haciz(message):
         return
 
     user_id = message.from_user.id
-    channel_username1 = '@JitemSorgu'
-    channel_username2 = '@JitemChats'
+    channel_username1 = '@CerenyTeam'
+    channel_username2 = '@Bot4Chan'
     
     if not is_user_in_channel(user_id, channel_username1) or not is_user_in_channel(user_id, channel_username2):
                 bot.send_message(user_id, text="*Üzgünüm, @JitemSorgu ve @JitemChats gruplarına katılmak zorunludur!*", parse_mode="Markdown")
@@ -2530,8 +2530,8 @@ def yaz(message):
         return
 
     user_id = message.from_user.id
-    channel_username1 = '@JitemSorgu'
-    channel_username2 = '@JitemChats'
+    channel_username1 = '@CerenyTeam'
+    channel_username2 = '@Bot4Chan'
     
     if not is_user_in_channel(user_id, channel_username1) or not is_user_in_channel(user_id, channel_username2):
                 bot.send_message(user_id, text="*Üzgünüm, @JitemSorgu ve @JitemChats gruplarına katılmak zorunludur!*", parse_mode="Markdown")
