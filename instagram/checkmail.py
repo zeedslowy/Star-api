@@ -1,5 +1,3 @@
-import webbrowser
-webbrowser.open('https://t.me/dijvarhack')
 import os
 try:
   import random
@@ -39,9 +37,9 @@ print(f'''{B}{E}=============================={B}
 |{F}[+] Tool       : {B} VIP İNSTA|
 {E}==============================''')
 
-token = input(f' {F}({M}1{F}) {M} Enter Token{F}  ' + O)
+token = input(f' {F}({M}1{F}) {M} Enter Token Telegram @BotFather{F}  ' + O)
 print(X + ' ═════════════════════════════════  ')
-ID = input(f' {F}({M}2{F}) {M} Enter ID{F}  ' + O)
+ID = input(f' {F}({M}2{F}) {M} Enter Chat ID{F}  ' + O)
 
 def Tele(email):
     user = email.split("@")[0]
@@ -120,7 +118,7 @@ def Men():
             pass
             HH = ''.join(random.choice('zxvcbnmlkjhgfdsapoiuyrtewq') for i in range(4))                      
             name = random.choice([HH, NEHAHHH, Fuck])
-            email = name + "@yopmail.com"
+            email = name + "@gmail.com"
             Ch(email)
 
 for i in range(5):
