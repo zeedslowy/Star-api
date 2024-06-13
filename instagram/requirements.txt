@@ -1,3 +1,4 @@
 requests
 beautifulsoup4
 python-telegram-bot
+faker
