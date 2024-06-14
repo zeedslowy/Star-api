@@ -1600,7 +1600,7 @@ bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=['start'])
 def botu_baslatma(message):
-    bot.reply_to(message, "𝐌𝐄𝐑𝐇𝐀𝐁𝐀 𝐒𝐌𝐒 𝐁𝐎𝐌𝐁𝐄𝐑 𝐁𝐎𝐓𝐔𝐍𝐀 𝐇𝐎Ş𝐆𝐄𝐋𝐃İ𝐍İ𝐙, 𝐊𝐎𝐌𝐔𝐓𝐋𝐀𝐑 İÇİ𝐍 /𝐤𝐨𝐦𝐮𝐭.")
+    bot.reply_to(message, "𝐌𝐄𝐑𝐇𝐀𝐁𝐀 𝐒𝐌𝐒 𝐁𝐎𝐓𝐔𝐍𝐀 𝐇𝐎Ş𝐆𝐄𝐋𝐃İ𝐍İ𝐙, 𝐊𝐎𝐌𝐔𝐓𝐋𝐀𝐑 İÇİ𝐍\n\n/komut")
 
 @bot.message_handler(commands=['komut'])
 def send_help_message(message):
@@ -1618,13 +1618,13 @@ def send_sms(message):
     phone_number = args[0]
     sms_count = int(args[1])
 
-    bot.reply_to(message, f"İŞLEM BAŞLATILDI!")
+    bot.reply_to(message, f"İŞ𝗟𝗘𝗠 𝗕𝗔Ş𝗟𝗔𝗧𝗜𝗟𝗗𝗜 !")
 
     for _ in range(sms_count):
         servis_adi = random.choice(list(services.keys()))
         service = services[servis_adi]
         service(phone_number)
 
-    bot.reply_to(message, f"{sms_count} İSLEM TAMAMDIR ✓")
+    bot.reply_to(message, f"{sms_count} İŞ𝗟𝗘𝗠 𝗧𝗔𝗠𝗔𝗠𝗗𝗜𝗥 ✓")
 
 bot.polling()
