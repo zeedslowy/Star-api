@@ -8,6 +8,8 @@ BAZI TOLLARIN ÇALIŞMASI İÇİN BİR `APİ JETON` A İHTİYAC VARDIR,
 
 ## CHAT İD EDİNMEK [MİSSROSE™](t.me/MissRose_bot)
 
+**CHAT İD BULMAK İÇİN `/id` Komutu Kullanabilirsiniz,**
+
 # MODUL İNŞA ET,
 
 TOOLLAR, PYTHON DİLİNDE YAZILDIĞI İÇİN BAZI `KÜTÜPHANEYE` İHTİYAÇ DUYACAKTIR,
