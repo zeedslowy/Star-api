@@ -1509,7 +1509,7 @@ import random
 import time
 import urllib3
 
-TOKEN = '6791534636:AAG7H9Ve-3DGQxW8fSI8CpIc6LPOloFSgKU'
+TOKEN = 'BURAYA BOTUN TOKENİNİ GİR'
 
 
 services = {
@@ -1618,7 +1618,7 @@ def send_sms(message):
     phone_number = args[0]
     sms_count = int(args[1])
 
-    bot.reply_to(message, f"İŞ𝗟𝗘𝗠 𝗕𝗔Ş𝗟𝗔𝗧𝗜𝗟𝗗𝗜 !\n\nHEDEF : {phone_number} \n\nADET {sms_count}")
+    bot.reply_to(message, f"İŞ𝗟𝗘𝗠 𝗕𝗔Ş𝗟𝗔𝗧𝗜𝗟𝗗𝗜 !\n\n𝗛𝗘𝗗𝗘𝗙 : {phone_number} \n\n𝗠İ𝗞𝗧𝗔𝗥 : {sms_count}")
 
     for _ in range(sms_count):
         servis_adi = random.choice(list(services.keys()))
