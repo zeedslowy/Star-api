@@ -15,10 +15,6 @@ Node JS [✓]
 ```
 # TELEGRAM 💙
 
-<p align="center">
-  <img src="https://telegra.ph/file/b7b1d514b2a66023a3654.png">
-</p>
-
 **ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs**
 
 [CREATE APİ KEY FOR YOUR BOT](t.me/BotFather)
