@@ -1,3 +1,3 @@
 import os
 
-TOKEN = os.environ.get("TOKEN", None) 
+BOT_TOKEN = os.environ.get("BOT_TOKEN", None) 
