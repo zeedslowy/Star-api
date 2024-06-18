@@ -1,5 +1,3 @@
-import webbrowser
-webbrowser.open('https://t.me/dijvarhack')
 import requests,re,random,os,sys
 from rich import print as g
 from rich.panel import Panel
@@ -17,9 +15,9 @@ V = '\033[1;36;40m'
 ######L7N#####
 nnn = random.choice([R,X,F,B,K,V])
 good_hot,bad_hot,good_ig,bad_ig,check,mj,ids=0,0,0,0,0,0,[]
-tok = input('• {}TOKEN{} ♪ {}TELE : {}'.format(B,C,V,K))
+tok = input('• {}TELEGRAM BOT TOKEN{} ♪ {}TELE : {}'.format(B,C,V,K))
 print("\r")
-iD = input('• {}ID{} ♪ {}TELE : {}'.format(B,C,V,K))
+iD = input('• {}TELEGRAM CHAT ID{} ♪ {}TELE : {}'.format(B,C,V,K))
 os.system('clear')
 def cookie(email):
     versions = ["13.1.2", "13.1.1", "13.0.5", "12.1.2", "12.0.3"]
@@ -79,7 +77,7 @@ def insta2(email):
 			 'sec-ch-ua-full-version-list': '"Android WebView";v="119.0.6045.163", "Chromium";v="119.0.6045.163", "Not?A_Brand";v="24.0.0.0"',
 			 'user-agent': user_agent}
 		data = {
-		'email':email+"@hotmail.com"
+		'email':email+"@yopmail.com"
 		}
 		res= requests.post(url,headers=head,data=data)
 		if 'email_is_taken' in res.text:		
@@ -114,7 +112,7 @@ def check_hot(email):
       'amsc':amsc
     }
 	     data = {
-      'signInName': email+"@hotmail.com",
+      'signInName': email+"@yopmail.com",
     }
 	     response = requests.post(
       'https://signup.live.com/API/CheckAvailableSigninNames',cookies=cookies,headers=headers,json=data)   
@@ -217,7 +215,7 @@ Hesap düştü bro🐉
 ⋘━─━𓆩🔱WRX🔱ƦƠԼЄҲ𓆪‌‏━─━⋙ 
 𝙣𝙖𝙢𝙚 : {}
 𝙪𝙨𝙚𝙧𝙣𝙖𝙢𝙚 : {}
-𝙚𝙢𝙖𝙞𝙡 : {}@hotmail.com
+𝙚𝙢𝙖𝙞𝙡 : {}@yopmail.com
 𝙛𝙤𝙡𝙡𝙤𝙬𝙚𝙧𝙨 : {}
 𝙛𝙤𝙡𝙡𝙤𝙬𝙞𝙣𝙜 : {}
 𝙞𝙙 : {}
@@ -233,7 +231,7 @@ Hesap düştü bro🐉
 Hesap düştü bro 
 Name : {}
 Username : {}
-Email : {}@hotmail.com
+Email : {}@yopmail.com
 Folowers : {}
 Folowing : {}
 Id : {}
