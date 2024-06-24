@@ -1,3 +1,9 @@
 telebot
-pyrogram
+time
+random
 requests
+urllib3
+json
+string
+uuid
+urllib.parse
