@@ -39,7 +39,7 @@ sudo apt install git
 https://github.com/zeedslowy/Star-api
 ```
 
-- Modüller İnşa Etmek :
+- MODÜLLER İNŞA ETMEK :
 ```
 sudo pip3 install -r requirements.txt
 ```
@@ -54,18 +54,18 @@ Kısmını
 
 [Bot Father](t.me/BotFather)
 
-Aldığınız Değeri Api-Key İle Değiştiriniz,
+Üzerinden Aldığınız Değeri Api-Key İle Değiştiriniz,
 
-## Şimdi İse `Lake-Wlan`
+## Şimdi İse `WLAN-LAKE`
 
-**Botunuzun Sürekli Açık Kalmasını Sağlamak İçin Gerekli Metodları Vereceğim**
+## **Botunuzun Sürekli Açık Kalmasını Sağlamak İçin Gerekli Metodları Vereceğim**
 
-**Modül İndirmek**
+- **MODÜL İNDİRMEK**
 ```
 sudo apt install tmux && tmux
 ```
 
-**BOTU BAŞLATMA VAKTİ**
+- **BOTU BAŞLATMA VAKTİ**
 ```
 bash startup
 ```
