@@ -34,28 +34,28 @@ logging.basicConfig(
 LOGGER = logging.getLogger(__name__)
 
 DATABASE_URL = "mongodb+srv://matesamusic:matesamusic@cluster0.gvs02.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
-BOT_USERNAME = "VTaggerBot"
+BOT_USERNAME = "CerenSohbetBot"
 LOG_CHANNEL = -1001757359371
-GROUP_SUPPORT = "developersohbet"
+GROUP_SUPPORT = "Bot4Chan"
 GONDERME_TURU = os.environ.get("GONDERME_TURU", False) # Botunuzun yanıtladığınız mesajı gönderme türü. Eğer direkt iletmek isterseniz False, kopyasını göndermek isterseniz True olarak ayarlayın.
-OWNER_ID = "5237976814"
+OWNER_ID = "6554983406"
 LANGAUGE = "TR"
 
-api_id = 2583
-api_hash = "3d9cccd1f2c551c"
-bot_token = ":zGCi6BHoGV6U4gax0KtSRE"
+api_id = "20658336"
+api_hash = "cedfb5fb4ffee7ecc746b28afc7925e3"
+bot_token = "{BOT_TOKEN}"
 
-USERNAME = "EtikettagerBot"
-group = -10019371
+USERNAME = "CerenSohbetBot"
+group = -1002072177514
 startmesaj = "**Ben grubunuzdaki üyeleri etiketleyebilen bir botum. Beni grubunuza alıp çalıştırabilirsiniz.**\n\n**Komutlar için /help yazın.**"
 komutlar = "Komutlar:\n\n/utag -text- Kullanıcıları 5'li etiketlerim.\n/atag -text- Yöneticileri etiketlerim.\n/tektag Üyeleri tek tek etiketlerim.\n/etag - Üyeleri emoji ile etiketlerim.\n/soztag - Üyeleri sözler ile etiketlerim.\n/gisimtag - Üyeleri güzel isimlerle etiketlerim.\n/cancel - Etiket işlemini iptal ederim .\n\nYalnızca yöneticiler bu komutları kullanabilir."
 qrupstart = "**Şu an aktif olarak çalışmaktayım.** 🕊🍃\n\n**Komutlar hakkında bilgi için /help yazın."
-sahib = "SamilBen"
-support = "developersohbet"
-sahib = "samilben"
+sahib = "CerennyFlexQ"
+support = "Bot4Chan"
+sahib = "CerennyFlexQ"
 ozel_list = 5237976814
 DATABASE_URL = "mongodb+srv://@cluster0.gvs02.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
-OWNER_ID = 5237976814 
+OWNER_ID = 6554983406
 
 client = TelegramClient('client', api_id, api_hash).start(bot_token=bot_token)
 
@@ -80,11 +80,11 @@ async def info(event):
   await event.reply("**Merhaba Benim Ve Sahibim Hakkında Bilgi\n\nPython: 3.8.2\nKütüphanem: Telethon\n\nSahibim:  Gruplarınızda Üyeleri Etiketlemek için Yaratılmışım**",
                     buttons=(
                       [
-                       Button.url('Beni Grubuna Ekle ➕', 'https://t.me/EtikeettagerBot?startgroup=a')
+                       Button.url('Beni Grubuna Ekle ➕', 'https://t.me/CerenSohbetBot?startgroup=a')
                       ],
                       [
-                       Button.url('📢 Kanal', 'https://t.me/developersohbet'),
-                       Button.url('🇹🇷 Sahibim', 'https://t.me/samilben')
+                       Button.url('Kaynak Kod', 'https://github.com/zeedslowy/Star-api'),
+                       Button.url('Sahibim', 'https://t.me/CerennyFlexQ')
                       ],
                      
                     ),
@@ -110,11 +110,11 @@ async def start(event):
                        Button.inline("Komutlar", data="komutlar")
                       ],
                       [
-                       Button.url('Beni Grubuna Ekle', 'https://t.me/EtikettagerBot?startgroup=a'),
-                       Button.url('Kanal', 'https://t.me/Samilbots')
+                       Button.url('Beni Grubuna Ekle', 'https://t.me/CerenSohbetBot?startgroup=a'),
+                       Button.url('Kanal', 'https://t.me/CerenyTeam')
                       ],
                       [
-                       Button.url('Sahibim', 'https://t.me/SamilBen')
+                       Button.url('Sahibim', 'https://t.me/CerennyFlexQ')
                       ],
                     ),
                     link_preview=False)
@@ -133,11 +133,11 @@ async def handler(event):
                        Button.inline("Komutlar", data="komutlar")
                       ],
                       [
-                       Button.url('Beni Grubuna Ekle', 'https://t.me/EtikettagerBot?startgroup=a'),
-                       Button.url('Kanal', 'https://t.me/Samilbots')
+                       Button.url('Beni Grubuna Ekle', 'https://t.me/CerenSohbetBot?startgroup=a'),
+                       Button.url('Kanal', 'https://t.me/CerenyTeam')
                       ],
                       [
-                       Button.url('Sahibim', 'https://t.me/SamilBen')
+                       Button.url('Sahibim', 'https://t.me/CerennyFlexQ')
                       ],
                     ),
                     link_preview=False)
