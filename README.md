@@ -9,7 +9,7 @@ NOT :
 # Cereny Sms App
 **5 Adet Farklı Altyapı İçeren Bir Arşivdir Her Neyse Senin İçin Altyapı Koymuştum Telegram Klasörune Bakmayı Unutma Umarım İşine Yarar**
 
-# Cereny Sms Bot Kurulum,
+## Cereny Sms Bot Kurulum,
 
 <p align="center">
 <b>𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧 𝗠𝗘𝗧𝗛𝗢𝗗𝗦</b>
