@@ -6,6 +6,10 @@ NOT :
 
 `Açık Kaynak Scripitler` Mevcutttur, Burası Tamda Geliştiricilerin Burası Cennettidir ⭐
 
+# Cereny Sms App
+**5 Adet Farklı Altyapı İçeren Bir Arşivdir Her Neyse Senin İçin Altyapı Koymuştum Telegram Klasörune Bakmayı Unutma Umarım İşine Yarar**
+
+# Cereny Sms Bot Kurulum,
 
 <p align="center">
 <b>𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧 𝗠𝗘𝗧𝗛𝗢𝗗𝗦</b>
@@ -26,11 +30,11 @@ NOT :
 ```
 sudo apt-get update && sudo apt-get upgrade -y
 ```
-GİT PAKETİ KURULUM
+- GİT PAKETİ KURULUM
 ```
 sudo apt install git
 ```
-REPOYU KLONLA
+- REPOYU KLONLA
 ```
 https://github.com/zeedslowy/Star-api
 ```
@@ -40,11 +44,11 @@ https://github.com/zeedslowy/Star-api
 sudo pip3 install -r requirements.txt
 ```
 
-DEĞER DEĞİŞTİRME
+- DEĞER DEĞİŞTİRME
 ```
  vi hkra.py
 ```
-DEĞERİ DEĞİŞTİRME
+- DEĞERİ DEĞİŞTİRME
 `1512` Satırında Bulunan `{BOT_TOKEN}`
 Kısmını 
 
@@ -52,9 +56,9 @@ Kısmını
 
 Aldığınız Değeri Api-Key İle Değiştiriniz,
 
-## Şimdi İse `Lake-lan`
+## Şimdi İse `Lake-Wlan`
 
-Botunuzun Sürekli Açık Kalmasını Sağlamak İçin Gerekli Metodları Vereceğim
+**Botunuzun Sürekli Açık Kalmasını Sağlamak İçin Gerekli Metodları Vereceğim**
 
 **Modül İndirmek**
 ```
@@ -67,15 +71,14 @@ bash startup
 ```
 
 <p align="center">
-  <img src="https://te.legra.ph/file/b09cdfe8fb553fdd976eb.jpg">
+  <img src="https://telegra.ph/file/ba9423bf79903b785dbcb.jpg">
 </p>
 
 </details>
 
-━━━━━━━━━━━━━━━━━━━━
-<h3 align="center">
-    ─「 sᴜᴩᴩᴏʀᴛ 」─
-</h3>
+
+─「 [DESTEK KANAL](t.me/CerenyTeam) 」─
+
 
 # Kullanılan Programlama Diller,
 ```
@@ -95,13 +98,13 @@ Node JS [✓]
 
 ## Örnek Python Script
 
-[ÖRNEK ALTYAPI BETİĞİ](https://github.com/zeedslowy/lune-api/tree/main/Telegram)
+[ALTAYPI KAYNAK DOSYALAR](https://github.com/zeedslowy/lune-api/tree/main/Telegram)
 
-***Eğer [Termux 📥](https://f-droid.org/tr/packages/com.termux) İle Depoyu Klonladıktan Sonra `cd Telegram` Komut Verin,***
+***Eğer [Termux 📥](https://f-droid.org/tr/packages/com.termux) İle Depoyu Klonladıktan Sonra `cd Star-api` Komut Verin,***
 
 ## Arayüz İle Betiği Editlemek
 ```
-vi Bot_Altyapi.py
+vi hkra.py
 ```
 
 ## APİ ÖRNEĞİ [PYROGRAM](https://pypi.org/project/Pyrogram)
