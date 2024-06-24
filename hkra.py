@@ -1509,7 +1509,7 @@ import random
 import time
 import urllib3
 
-TOKEN = 'BURAYA BOTUN TOKENİNİ GİR'
+TOKEN = '{BOT_TOKEN}'
 
 
 services = {
