@@ -1,0 +1,29 @@
+{
+    "name": "Star Api",
+    "description": "Telegram Sms Bot.",
+    "logo": "https://te.legra.ph/file/49c43e6fc856534a09853.jpg",
+    "keywords": [
+       "telegram",
+       "modular",
+       "group",
+       "manager"
+    ],   
+ "repository": "https://github.com/lizyangelxdark/Star-api",
+ "stack": "heroku-22",
+ "addons": [
+    {
+       "options": {
+          "version": "12"
+       },
+       "plan": "heroku-postgresql"
+    }
+ ],
+ "env": {
+    },
+    "BOT_TOKEN": {
+       "description": "Get bot token from Api Key @BotFather on TG",
+       "required": true,
+       "value": ""
+    }
+ }
+}
