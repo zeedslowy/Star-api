@@ -7,6 +7,76 @@ NOT :
 `Açık Kaynak Scripitler` Mevcutttur, Burası Tamda Geliştiricilerin Burası Cennettidir ⭐
 
 
+<p align="center">
+<b>𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧 𝗠𝗘𝗧𝗛𝗢𝗗𝗦</b>
+</p>
+
+<h3 align="center">
+    ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─
+</h3>
+
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/zeedslowy/Star-api"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+
+<details>
+<summary><h3>
+- <b> VDS/VPS LOCAL Kurulum </b>
+</h3></summary>
+
+- SUDO PAKET GÜNCELLEME :
+```
+sudo apt-get update && sudo apt-get upgrade -y
+```
+GİT PAKETİ KURULUM
+```
+sudo apt install git
+```
+REPOYU KLONLA
+```
+https://github.com/zeedslowy/Star-api
+```
+
+- Modüller İnşa Etmek :
+```
+sudo pip3 install -r requirements.txt
+```
+
+DEĞER DEĞİŞTİRME
+```
+ vi hkra.py
+```
+DEĞERİ DEĞİŞTİRME
+`1512` Satırında Bulunan `{BOT_TOKEN}`
+Kısmını 
+
+[Bot Father](t.me/BotFather)
+
+Aldığınız Değeri Api-Key İle Değiştiriniz,
+
+## Şimdi İse `Lake-lan`
+
+Botunuzun Sürekli Açık Kalmasını Sağlamak İçin Gerekli Metodları Vereceğim
+
+**Modül İndirmek**
+```
+sudo apt install tmux && tmux
+```
+
+**BOTU BAŞLATMA VAKTİ**
+```
+bash startup
+```
+
+<p align="center">
+  <img src="https://te.legra.ph/file/b09cdfe8fb553fdd976eb.jpg">
+</p>
+
+</details>
+
+━━━━━━━━━━━━━━━━━━━━
+<h3 align="center">
+    ─「 sᴜᴩᴩᴏʀᴛ 」─
+</h3>
+
 # Kullanılan Programlama Diller,
 ```
 Php [✓]
