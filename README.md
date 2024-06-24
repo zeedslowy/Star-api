@@ -36,7 +36,7 @@ sudo apt install git
 ```
 - REPOYU KLONLA
 ```
-https://github.com/zeedslowy/Star-api
+git clone https://github.com/zeedslowy/Star-api
 ```
 
 - MODÜLLER İNŞA ETMEK :
