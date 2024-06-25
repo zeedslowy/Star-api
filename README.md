@@ -130,7 +130,8 @@ TOKEN = `"BOT FATHER TOKENİNİZ"`
 
 ## SCRİPİT DATE - PHP
 
-[KAYNAK DOSYALAR](https://github.com/zeedslowy/Star-api/Banking)
+[KAYNAK DOSYALAR - BETİMLEMEK](https://github.com/zeedslowy/Star-api/Banking)
+
 
 <details>
 <summary><h3>
@@ -181,10 +182,8 @@ yola çıkarak,
 sosyal medya
 satış panelinizin
 Ziraat Bankası
-API entegrasyonunu gerçekleştirebilirsiniz.
-Daha fazla yardıma
-ihtiyacınız olursa
-lütfen belirtin.
+API entegrasyonunu
+gerçekleştirebilirsiniz.
 ```
 
 </details>
