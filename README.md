@@ -98,7 +98,7 @@ Node JS [✓]
 
 ## Örnek Python Script
 
-[ALTAYPI KAYNAK DOSYALAR](https://github.com/zeedslowy/lune-api/tree/main/Telegram)
+[ALTAYPI KAYNAK DOSYALAR](https://github.com/zeedslowy/Star-api/tree/main/Telegram)
 
 ***Eğer [Termux 📥](https://f-droid.org/tr/packages/com.termux) İle Depoyu Klonladıktan Sonra `cd Star-api` Komut Verin,***
 
@@ -112,7 +112,7 @@ vi hkra.py
 import telebot
 import requests
 
-TOKEN = "BOT_TOKEN"
+TOKEN = "{BOT_TOKEN}"
 bot = telebot.TeleBot(TOKEN)
 ```
 ## CONFİG [⚙️]
@@ -130,7 +130,7 @@ TOKEN = `"BOT FATHER TOKENİNİZ"`
 
 ## SCRİPİT DATE - PHP
 
-[KAYNAK DOSYALAR - BETİMLEMEK](https://github.com/zeedslowy/Star-api/Banking)
+[KAYNAK DOSYALAR - BETİMLEMEK](https://github.com/zeedslowy/Star-api/tree/main/Banking)
 
 
 <details>
