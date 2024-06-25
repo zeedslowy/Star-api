@@ -121,7 +121,72 @@ bot = telebot.TeleBot(TOKEN)
 TOKEN = `"BOT FATHER TOKENİNİZ"`
 
 
-# BANKİNG 🏛️
+# BANKİNG - APİ , PAYMENT 🏛️
 
 <p align="center">
   <img src="https://telegra.ph/file/b32e62c0f1854e71b3220.jpg">
+
+## PHP BETİĞİ,
+
+## SCRİPİT DATE - PHP
+
+[KAYNAK DOSYALAR](https://github.com/zeedslowy/Star-api/Banking)
+
+<details>
+<summary><h3>
+- <b> ZİRAAT BANK - CLİENT ÖRNEĞİ TIKLA BANA 👈</b>
+</h3></summary>
+
+```
+Bu örnek kod, Ziraat Bankası
+API'sini kullanarak bir
+ödeme işlemi
+gerçekleştiriyor.
+Ödeme bilgilerini
+JSON formatında göndererek,
+API'den alınan yanıtı da
+JSON formatında işliyor.
+
+Dikkat etmeniz gereken noktalar:
+
+1. `$apiUrl`,
+`$apiKey` ve
+`$apiSecret`
+değerlerini
+kendi Ziraat
+Bankası
+API erişim
+bilgilerinizle
+değiştirmelisiniz.
+
+2. `$paymentData`
+dizisinde
+yer alan bilgileri
+kendi ödeme
+verilerinizle
+güncelleyebilirsiniz.
+
+3. Ödeme işleminin
+sonucuna göre,
+başarılı veya
+başarısız
+durumları
+kontrol edip
+kullanıcıya
+uygun mesajları
+gösterebilirsiniz.
+
+Bu örnekten
+yola çıkarak,
+sosyal medya
+satış panelinizin
+Ziraat Bankası
+API entegrasyonunu gerçekleştirebilirsiniz.
+Daha fazla yardıma
+ihtiyacınız olursa
+lütfen belirtin.
+```
+
+</details>
+
+Premium -}
