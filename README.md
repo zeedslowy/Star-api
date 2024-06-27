@@ -1,18 +1,30 @@
 # LUNE - APİ FREE ∆
 
-## OPEN SOURCE DATA ;
+## OPEN SOURCE DATA  TELEGRAM BOT;
 
 NOT : 
 
 `Açık Kaynak Scripitler` Mevcutttur, Burası Tamda Geliştiricilerin Burası Cennettidir ⭐
 
-# Cereny Sms App
-**5 Adet Farklı Altyapı İçeren Bir Arşivdir Her Neyse Senin İçin Altyapı Koymuştum Telegram Klasörune Bakmayı Unutma Umarım İşine Yarar**
+# Cereny Sms App + 
+# TELEGRAM TR TAGGER BOT + 
 
-## Cereny Sms Bot Kurulum,
+[DEMO TR TAGGER BOT](https://github.com/zeedslowy/Star-api/tree/main/TG-TAGGER)
+
+# 5 + BOT ALTYAPISI
+
+[DEMO TELEBOT ALTYAPI KAYNAKLAR](https://github.com/zeedslowy/Star-api/tree/main/Telegram)
+
+# BANKA ∆ VİRTUAL POS - [APİ]
+
+[PHP - TR BANKA SANAL POS HTTP KAYNAK](https://github.com/zeedslowy/Star-api/tree/main/Banking)
+
+-----------
+
+## CERENY SMS BOT KURULUM,
 
 <p align="center">
-<b>𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧 𝗠𝗘𝗧𝗛𝗢𝗗𝗦</b>
+<b>𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧 𝗠𝗘𝗧𝗛𝗢𝗗𝗦 CERENY SMS BOT</b>
 </p>
 
 <h3 align="center">
