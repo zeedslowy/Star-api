@@ -24,7 +24,7 @@ NOT :
 ## CERENY SMS BOT KURULUM,
 
 <p align="center">
-<b>𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧 𝗠𝗘𝗧𝗛𝗢𝗗𝗦 𝗖𝗘𝗥𝗘𝗡𝗬 [𝗦𝗠𝗦 𝗕𝗢𝗧]</b>
+<b>𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧 𝗠𝗘𝗧𝗛𝗢𝗗𝗦 𝗖𝗘𝗥𝗘𝗡𝗬 𝗦𝗠𝗦 [𝗕𝗢𝗧]</b>
 </p>
 
 <h3 align="center">
