@@ -2,3 +2,4 @@ telebot
 pyrogram
 requests
 rich
+python-telegram-bot
