@@ -35,7 +35,7 @@ vi bot.py
 **Terminal İşlem**
 
 İŞLEM PANELİNDEN `ctrl+c` ARDINDAN
-`:wq` YES MODİFED İŞLEM TAMAMDIR
+`:wq` KOMUTUNDAN SONRA YES MODİFED İŞLEM TAMAMDIR
 
 ## WAKE-LAN İŞLEMİ
 **BOTUNUZUN SÜREKLİ AKTİF KALMASINI SAĞLAYAN
@@ -81,7 +81,7 @@ ETİKETLEYEBİLİRİM
 
  ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ </h1>
 
-[<img src="https://raw.githubusercontent.com/AnonymousX1025/AnonymousX1025/master/resources/telegram_icon.png" width="60px">](https://t.me/+905449096348) [<img src="https://raw.githubusercontent.com/AnonymousX1025/AnonymousX1025/master/resources/github_icon.png" width="60px">](https://github.com/lizyangelxdark) [<img src="https://raw.githubusercontent.com/AnonymousX1025/AnonymousX1025/master/resources/youtube_icon.png" width="60px">](https://www.youtube.com/c/KingTech1025) [<img src="https://github.com/AnonymousX1025/AnonymousX1025/blob/master/resources/insta_icon.png" width="60px">](https://instagram.com/bariscrnx)
+[<img src="https://raw.githubusercontent.com/AnonymousX1025/AnonymousX1025/master/resources/telegram_icon.png" width="60px">](https://t.me/+905449096348) [<img src="https://raw.githubusercontent.com/AnonymousX1025/AnonymousX1025/master/resources/github_icon.png" width="60px">](https://github.com/zeedslowy) [<img src="https://raw.githubusercontent.com/AnonymousX1025/AnonymousX1025/master/resources/youtube_icon.png" width="60px">](https://www.youtube.com/c/lizyangelxdark) [<img src="https://github.com/AnonymousX1025/AnonymousX1025/blob/master/resources/insta_icon.png" width="60px">](https://instagram.com/bariscrnx)
 
 [<img src="https://github.com/AnonymousX1025/AnonymousX1025/blob/master/resources/hr.gif"/>](https://github.com/AnonymousX1025)
 
