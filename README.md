@@ -24,7 +24,7 @@ NOT :
 ## CERENY SMS BOT KURULUM,
 
 <p align="center">
-<b>𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧 𝗠𝗘𝗧𝗛𝗢𝗗𝗦 CERENY SMS BOT</b>
+<b>𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧 𝗠𝗘𝗧𝗛𝗢𝗗𝗦 𝗖𝗘𝗥𝗘𝗡𝗬 [𝗦𝗠𝗦 𝗕𝗢𝗧]</b>
 </p>
 
 <h3 align="center">
@@ -35,7 +35,7 @@ NOT :
 
 <details>
 <summary><h3>
-- <b> VDS/VPS LOCAL Kurulum </b>
+- <b> VDS/VPS LOCAL Kurulum Tıkla Bana  👈</b>
 </h3></summary>
 
 - SUDO PAKET GÜNCELLEME :
@@ -200,4 +200,15 @@ gerçekleştirebilirsiniz.
 
 </details>
 
-Premium -}
+ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ </h1>
+
+[<img src="https://raw.githubusercontent.com/AnonymousX1025/AnonymousX1025/master/resources/telegram_icon.png" width="60px">](https://t.me/+905449096348) [<img src="https://raw.githubusercontent.com/AnonymousX1025/AnonymousX1025/master/resources/github_icon.png" width="60px">](https://github.com/zeedslowy) [<img src="https://raw.githubusercontent.com/AnonymousX1025/AnonymousX1025/master/resources/youtube_icon.png" width="60px">](https://www.youtube.com/c/lizyangelxdark) [<img src="https://github.com/AnonymousX1025/AnonymousX1025/blob/master/resources/insta_icon.png" width="60px">](https://instagram.com/bariscrnx)
+
+[<img src="https://github.com/AnonymousX1025/AnonymousX1025/blob/master/resources/hr.gif"/>](https://github.com/AnonymousX1025)
+
+
+
+
+## DESTEK KANALIMIZ
+
+[SUPPORT](t.me/CerenyTeam) 
