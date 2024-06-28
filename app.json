@@ -20,7 +20,7 @@
  ],
  "env": {
     },
-    "BOT_TOKEN": {
+    "TOKEN": {
        "description": "Get bot token from Api Key @BotFather on TG",
        "required": true,
        "value": ""
