@@ -1509,7 +1509,7 @@ import random
 import time
 import urllib3
 
-TOKEN = '{BOT_TOKEN}'
+TOKEN = '{TOKEN}'
 
 
 services = {
