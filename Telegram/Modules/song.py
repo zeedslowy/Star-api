@@ -23,7 +23,7 @@ def song(client, message):
     for i in message.command[1:]:
         query += " " + str(i)
     print(query)
-    m = message.reply("**» sᴇᴀʀᴄʜɪɴɢ, ᴩʟᴇᴀsᴇ ᴡᴀɪᴛ...**")
+    m = message.reply("**» Arıyorum, Lütfen Bekle...**")
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
     try:
         results = YoutubeSearch(query, max_results=1).to_dict()
@@ -66,7 +66,7 @@ def song(client, message):
         m.delete()
     except Exception as e:
         m.edit(
-            f"**» BAşarısız,​"
+            f"**» Başarısız,​"
         )
         print(e)
 
