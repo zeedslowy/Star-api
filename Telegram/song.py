@@ -1,7 +1,6 @@
 # CREATED FOR CERENYFLEXQ
+# NOTİCE : !! DENEME AŞAMASINDADIR !!
 
-import os
-import requests
 import telebot
 from pyrogram import Client, filters,enums,idle
 from pyrogram.errors import ApiIdInvalid, ApiIdPublishedFlood, AccessTokenInvalid
