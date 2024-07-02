@@ -5,15 +5,13 @@ import yt_dlp
 from pyrogram import filters
 from youtube_search import YoutubeSearch
 
-from MukeshRobot import SUPPORT_CHAT, pbot
-
 
 def time_to_seconds(time):
     stringt = str(time)
     return sum(int(x) * 60**i for i, x in enumerate(reversed(stringt.split(":"))))
 
 
-@pbot.on_message(filters.command(["song", "music"]))
+@pbot.on_message(filters.command(["song", "bul"]))
 def song(client, message):
 
     message.delete()
@@ -43,11 +41,11 @@ def song(client, message):
 
     except Exception as e:
         m.edit(
-            "**😴 sᴏɴɢ ɴᴏᴛ ғᴏᴜɴᴅ ᴏɴ ʏᴏᴜᴛᴜʙᴇ.**\n\n» ᴍᴀʏʙᴇ ᴛᴜɴᴇ ɢᴀʟᴀᴛ ʟɪᴋʜᴀ ʜᴏ, ᴩᴀᴅʜᴀɪ - ʟɪᴋʜᴀɪ ᴛᴏʜ ᴋᴀʀᴛᴀ ɴᴀʜɪ ᴛᴜ !"
+            "**KULLANIM**\n\n» /song [ ŞARKI İSİM ]"
         )
         print(str(e))
         return
-    m.edit("» ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ...\n\nᴩʟᴇᴀsᴇ ᴡᴀɪᴛ...")
+    m.edit("» Yükleniliyor...\n\nLütfen Bekleyiniz...")
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(link, download=False)
@@ -68,7 +66,7 @@ def song(client, message):
         m.delete()
     except Exception as e:
         m.edit(
-            f"**» ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴇʀʀᴏʀ, ʀᴇᴩᴏʀᴛ ᴛʜɪs ᴀᴛ​ » [sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ](t.me/{SUPPORT_CHAT}) 💕**\n\**ᴇʀʀᴏʀ :** {e}"
+            f"**» BAşarısız,​"
         )
         print(e)
 
@@ -77,9 +75,3 @@ def song(client, message):
         os.remove(thumb_name)
     except Exception as e:
         print(e)
-
-
-__mod_name__ = "Sᴏɴɢ"
-__help__ = """
-/song ᴛᴏ  ᴅᴏᴡɴʟᴏᴀᴅ   ᴀɴʏ  sᴏɴɢ 
-/music ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴀɴʏ  sᴏɴɢ"""
