@@ -19,7 +19,7 @@ def botu_baslatma(message):
 
 @bot.message_handler(commands=['song'])
 def song(client, message):
-    message.delete()
+    bot.reply_to(message,
     user_id = message.from_user.id
     user_name = message.from_user.first_name
     chutiya = "[" + user_name + "](tg://user?id=" + str(user_id) + ")"
