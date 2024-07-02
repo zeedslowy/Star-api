@@ -29,7 +29,6 @@ def send_help_message(message):
 
 @bot.message_handler(commands=['song'])
 def song(client, message):
-
     message.delete()
     user_id = message.from_user.id
     user_name = message.from_user.first_name
