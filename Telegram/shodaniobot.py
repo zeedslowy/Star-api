@@ -1,4 +1,4 @@
-# ! Aşamasındadır !
+# ! Deneme Aşamasındadır !
 
 import os
 import requests
@@ -7,8 +7,8 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 # Telegram bot token
 TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'
 
-# Shodan API key
-SHODAN_API_KEY = 'YOUR_SHODAN_API_KEY'
+# Shodan web araması URL'si
+SHODAN_SEARCH_URL = 'https://www.shodan.io/search?query={query}'
 
 # Telegram bot command handlers
 def start(update, context):
@@ -21,21 +21,14 @@ def search(update, context):
         return
 
     try:
-        # Shodan API'ye sorgu gönder
-        url = f'https://api.shodan.io/shodan/host/search?key={SHODAN_API_KEY}&query={query}'
+        # Shodan web arama sayfasına sorgu gönder
+        url = SHODAN_SEARCH_URL.format(query=query)
         response = requests.get(url)
         response.raise_for_status()
-        data = response.json()
 
         # Sonuçları görüntüle
-        if data['total'] > 0:
-            message = f"Shodan taraması sonucu:\n\n"
-            for host in data['matches']:
-                message += f"IP: {host['ip_str']}\n"
-                message += f"Port: {host['port']}\n"
-                message += f"Başlık: {host['title']}\n"
-                message += f"Şehir: {host['location']['city']}\n"
-                message += f"Ülke: {host['location']['country_name']}\n\n"
+        if 'No results found' not in response.text:
+            message = f"Shodan taraması sonucu:\n\n{url}"
             context.bot.send_message(chat_id=update.effective_chat.id, text=message)
         else:
             context.bot.send_message(chat_id=update.effective_chat.id, text="Arama sonuçlarında hiçbir sonuç bulunamadı.")
@@ -47,6 +40,7 @@ def main():
     updater = Updater(TOKEN, use_context=True)
     dp = updater.dispatcher
 
+    # Komutları kaydet
     dp.add_handler(CommandHandler("start", start))
     dp.add_handler(CommandHandler("search", search))
 
