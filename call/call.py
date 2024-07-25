@@ -34,6 +34,6 @@ def send_spam(phone_number):
     else:
         print('Arama gönderilemedi.')
 
-phone_number = input("Örnek no: +905555555555 🔱 Numaranın başına +90 ekleyin : ")
+phone_number = input("Örnek no: +90544909xx ∆ Numaranın başına +90 ekleyin : ")
 send_spam(phone_number)
 time.sleep(1)
