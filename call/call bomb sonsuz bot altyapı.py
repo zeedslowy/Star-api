@@ -25,7 +25,7 @@ def start(message):
  Ülke koduyla birlikte +
 
  Örnek:
- +905357547867 ''',reply_markup=Mak().add(Btn('darkflesharsiv33',callback_data='click')))
+ +90544909xx ''',reply_markup=Mak().add(Btn('darkflesharsiv33',callback_data='click')))
 
 def call(number):
     global alokt
