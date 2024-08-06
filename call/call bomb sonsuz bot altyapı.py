@@ -10,7 +10,7 @@ gigk = ''.join(random.choice(asa) for _ in range(10))
 md5 = hashlib.md5(gigk.encode()).hexdigest()[:16]
 
 
-token = "6746489788:AAH2g1f6ayG7rDB3kZNC062h2EGf6eoRo1M"
+token = "YOUR BOT TOKEN TELEGRAM"
 bot = telebot.TeleBot(token)
 
 
