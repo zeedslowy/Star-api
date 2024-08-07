@@ -118,7 +118,7 @@ def Men():
             pass
             HH = ''.join(random.choice('zxvcbnmlkjhgfdsapoiuyrtewq') for i in range(4))                      
             name = random.choice([HH, NEHAHHH, Fuck])
-            email = name + "@gmail.com"
+            email = name + "@yopmail.com"
             Ch(email)
 
 for i in range(5):
