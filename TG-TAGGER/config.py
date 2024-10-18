@@ -17,13 +17,13 @@ import logging
 #client = TelegramClient('client', api_id, api_hash).start(bot_token=bot_token)
 #
 #USERNAME = "VTaggerBot"
-group = -1001757359371
-startmesaj = "**Ben grubunuzdaki üyeleri etiketleyebilen bir botum. Beni grubunuza alıp çalıştırabilirsiniz.**\n\n**Komutlar için /help yazın.**"
+group = -1002072177514
+startmesaj = "**Ben grubunuzdaki üyeleri etiketleyebilen bir botum. Beni grubunuza alıp çalıştırabilirsiniz.**\n\n**Komutlar için /komutlar yazın.**"
 komutlar = "Komutlar:\n\n/utag -text- Kullanıcıları 5'li etiketlerim.\n/atag -text- Yöneticileri etiketlerim.\n/tektag Üyeleri tek tek etiketlerim.\n/etag - Üyeleri emoji ile etiketlerim.\n/soztag - Üyeleri sözler ile etiketlerim.\n/gisimtag - Üyeleri güzel isimlerle etiketlerim.\n/cancel - Etiket işlemini iptal ederim .\n\nYalnızca yöneticiler bu komutları kullanabilir."
 qrupstart = "**Şu an aktif olarak çalışmaktayım.** 🕊🍃\n\n**Komutlar hakkında bilgi için /help yazın."
-sahib = "SamilBen"
-support = "developersohbet"
-sahib = "samilben"
+sahib = "ViosCeo"
+support = "Bot4Chan"
+sahib = "ViosCeo"
 ozel_list = 5237976814
 #
 app = Client("GUNC",
