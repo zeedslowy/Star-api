@@ -47,9 +47,9 @@ bot_token = "{BOT_TOKEN}"
 
 USERNAME = "CerenSohbetBot"
 group = -1002072177514
-startmesaj = "**Ben grubunuzdaki üyeleri etiketleyebilen bir botum. Beni grubunuza alıp çalıştırabilirsiniz.**\n\n**Komutlar için /help yazın.**"
+startmesaj = "**Ben grubunuzdaki üyeleri etiketleyebilen bir botum. Beni grubunuza alıp çalıştırabilirsiniz.**\n\n**Komutlar için /komutlar yazın.**"
 komutlar = "Komutlar:\n\n/utag -text- Kullanıcıları 5'li etiketlerim.\n/atag -text- Yöneticileri etiketlerim.\n/tektag Üyeleri tek tek etiketlerim.\n/etag - Üyeleri emoji ile etiketlerim.\n/soztag - Üyeleri sözler ile etiketlerim.\n/gisimtag - Üyeleri güzel isimlerle etiketlerim.\n/cancel - Etiket işlemini iptal ederim .\n\nYalnızca yöneticiler bu komutları kullanabilir."
-qrupstart = "**Şu an aktif olarak çalışmaktayım.** 🕊🍃\n\n**Komutlar hakkında bilgi için /help yazın."
+qrupstart = "**Şu an aktif olarak çalışmaktayım.** 🕊🍃\n\n**Komutlar hakkında bilgi için /komutlar yazın."
 sahib = "CerennyFlexQ"
 support = "Bot4Chan"
 sahib = "CerennyFlexQ"
